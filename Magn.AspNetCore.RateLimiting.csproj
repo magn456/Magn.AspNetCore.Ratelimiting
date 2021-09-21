@@ -8,7 +8,7 @@
         <TargetFramework>net5.0</TargetFramework>
         <Company>Magn456</Company>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <PackageVersion>0.0.1</PackageVersion>
+        <PackageVersion>0.0.2</PackageVersion>
         <Authors>Magn456</Authors>
         <RepositoryUrl>https://github.com/magn456/Magn.AspNetCore.Ratelimiting</RepositoryUrl>
         <Description>A ratelimit library for aspnet core</Description>
