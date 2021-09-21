@@ -53,7 +53,7 @@ jobs:
         run: dotnet restore
           
       - name: Pack
-        run: dotnet pack --output Packed --no-build
+        run: dotnet pack --output Packed --no-build --configuration Release
         
       - name: Upload to NuGet
         env: 
