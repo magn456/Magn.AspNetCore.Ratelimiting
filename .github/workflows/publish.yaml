@@ -36,7 +36,7 @@ jobs:
       - name: Store build
         uses: actions/upload-artifact@v2
         with:
-          name: checkout
+          name: build
           path: ${{ github.workspace }}
   upload:
     name: Upload
