@@ -48,13 +48,6 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: build
-          
-      - name: Restore packages
-        run: dotnet restore
-          
-      - name: Pack
-        run: dotnet pack --output Packed --no-build --configuration Release
-        
       - name: Upload to NuGet
         env: 
           API_KEY: ${{ secrets.NUGET_API_KEY }}
