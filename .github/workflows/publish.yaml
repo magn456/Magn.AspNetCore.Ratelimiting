@@ -50,7 +50,7 @@ jobs:
           name: build
           
       - name: Pack
-        run: dotnet pack --output Build
+        run: dotnet pack --output Build --no-build
         
       - name: Upload to NuGet
         env: 
